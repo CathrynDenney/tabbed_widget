@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="tabs-style.css" />
+<script src="jquery-2.1.1.min.js"></script>
+<script src="tab-dynamics.js" type="text/javascript"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+<!-- TABBED WIDGET -->
+<aside class="news-tabs"> 
+
+	<ul class="tabs"><!-- Tab labels -->
+		<li><a href="#" data-tab="1" class="tab active">Latest news</a></li>
+		<li><a href="#" data-tab="2" class="tab">Most read</a></li>
+		<li><a href="#" data-tab="3" class="tab">Most shared</a></li> 
+		<!-- uncomment to add 4th tab
+		<li><a href="#" data-tab="4" class="tab">Spare</a></li> 
+		-->
+
+	</ul>
+
+	<div class="content"> <!-- Corresponding tab content -->
+		<div data-content="1" class="content-box active"><p>The latest news this week</p></div>
+		<div data-content="2" class="content-box"><p>The most read news this week</p></div>
+		<div data-content="3" class="content-box"><p>The most shared news this week</p></div>
+		<!-- uncomment to add 4th tab content
+		<div data-content="4" class="content-box"><p>Spare tab content</p></div>
+		-->
+	</div>
+
+</aside>
+<!-- /TABBED WIDGET --> 
+
+</body>
+
+</html>
