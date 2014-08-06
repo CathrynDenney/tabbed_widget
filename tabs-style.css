@@ -1,3 +1,4 @@
+/* RESET */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -62,23 +63,13 @@ table {
 
 .tabs{
 	max-width: 590px; /* arbitary - adjust as needed */
-	overflow: hidden;
-}
-
-.tabs li{
 	text-align: center;
 }
-
 
 .tabs a{
 	text-decoration: none;
 	display: block;
 	padding: 2%;
-}
-
-
-.menu {
-	display: block;
 }
 
 /* /TABS */
