@@ -90,7 +90,7 @@ table {
 /* STATE STYLES */
 
 .active, .tab.active{
-	background: rgb(149,149,149); /* Fallback where RGBa unsupporte */
+	background: rgb(149,149,149); /* Fallback where RGBa unsupported */
 	background: rgba(149,149,149, 0.3); /* RGBa to give active tab color opacity */
 }
 
