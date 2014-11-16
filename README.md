@@ -1,4 +1,5 @@
 Tabbed Widget
 =============
 
-A responsive, flexible, ful width tabbed widget.
+A responsive, flexible, full width tabbed widget.
+http://cathryndenney.com/tabbed-widgit/tabbed-widgit.html
